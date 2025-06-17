@@ -1,0 +1,22 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: background-color 1s ease;
+  padding-top: 50px;
+  background-color: rgb(178, 242, 242);
+}
+
+button {
+  height: 35px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: 10px 12px 15px black;
+}
+.oculto {
+  display: none;
+}

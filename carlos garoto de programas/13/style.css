@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 35vh;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+
+}
+button :hover{
+    transition: 0.5;
+    background-color: rgb(47, 79, 81);
+}

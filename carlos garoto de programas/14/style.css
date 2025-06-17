@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 35vh;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border: solid ;
+    border-radius: 15px;
+    box-shadow: 10px 10px ;
+}
