@@ -1,11 +1,9 @@
-let contador = 0;
+let result = 0;
 
-function atualizarContador() {
-  document.getElementById("valor").textContent = contador;
-}
-
-function aumentar() {
-  contador++;
-  atualizarContador();
-}
-
+document.getElementById("count").addEventListener("click",function() {
+    result++;
+    document.getElementById("result").textContent = "Cliques: " + result;
+    if (result >= 10) {
+        document.getElementById("meta").textContent = "Parabéns! Você atingiu a meta!"
+    }
+});
